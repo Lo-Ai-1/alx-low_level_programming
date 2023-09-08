@@ -1,4 +1,3 @@
-#!/bin/bash
 #include<stdio.h>
 /* first prog */
 int main (void)
