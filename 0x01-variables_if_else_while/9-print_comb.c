@@ -15,9 +15,12 @@ int main(void)
 
 	for (digit = 0; digit <= 9; digit++)
 	{
-		putchar(digit);
-		putchar(',');
-		putchar(' ');
+		putchar('0' + digit);
+		if (digit < 9)	/* Add comma and space for all digits except 9 */
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	putchar('\n');
