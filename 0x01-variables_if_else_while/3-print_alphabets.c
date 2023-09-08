@@ -9,23 +9,20 @@
 
 int main(void)
 {
-	char alphabet = 'a';
+	char alphabet = 'a', ALPHABET = 'A';
 
 	while (alphabet <= 'z')
 	{
 		putchar(alphabet);
 		alphabet++;
 	}
-	if (alphabet == 'z')
-	{
-	alphabet = 'A';
 
-	while (alphabet <= 'Z')
+	while (ALPHABET <= 'Z')
 	{
-		putchar(alphabet);
-		alphabet++;
+		putchar(ALPHABET);
+		ALPHABET++;
 	}
-	}
+	
 	putchar('\n');
 	return (0);
 }
