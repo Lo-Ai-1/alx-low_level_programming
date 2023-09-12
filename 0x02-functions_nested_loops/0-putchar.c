@@ -1,15 +1,22 @@
-#include<stdio.h>
+#include<unistd.h>
+#include "main.h"
 
 /**
- * main - Entry pointer
+ * main - Entry point
  *
- * Description: this program print a sentence
+ * Description: print the _putchar function
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
 */
-
 int main(void)
 {
-	printf("_putchar");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
