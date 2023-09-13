@@ -12,17 +12,13 @@ int main(void)
 
 	for (i = 1; i < 1024; i++)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
 			sum += i;
 		}
 	}
 
-	_putchar('0' + (sum / 1000));
-	_putchar('0' + ((sum / 100) % 10));
-	_putchar('0' + ((sum / 10) % 10));
-	_putchar('0' + (sum % 10));
-	_putchar('\n');
+	    printf("%d\n", sum);
 
 	return (0);
 }
