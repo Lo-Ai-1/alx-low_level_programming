@@ -1,14 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point of the program
+ * main - Fizz for multiples of 3 and Buzz for multiples of 5 FizzBuzz for both
  *
- * Description:
- * This program prints numbers from 1 to 100,
- * replacing multiples of 3 with "Fizz,"
- * multiples of 5 with "Buzz," and multiples of
- * both 3 and 5 with "FizzBuzz."
- * Each number or word is separated by a space.
+ * 
  *
  * Return: Always 0 (Success)
  */
@@ -18,22 +13,23 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3) == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("%s", "Fizz");
 		}
-		else if ((i % 5) == 0)
+		else if (i % 5 == 0)
 		{
 			printf("%s", "Buzz");
 		}
-		else if ((i % 3) == 0 && (i % 5) == 0)
+		else if  (i % 3 == 0)
 		{
 			printf("%s", "FizzBuzz");
 		}
-		else
+		else 
 		{
 		printf("%d", i);
 		}
+
 		if (i != 100)
 		{
 		printf(" ");
