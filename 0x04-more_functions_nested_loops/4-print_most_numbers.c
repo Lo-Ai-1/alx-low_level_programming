@@ -5,7 +5,7 @@
  * from 0 to 9.
  *
  * Description: This function prints the numbers from 0 to 9,
- * excluding the numbers 2 and 4,
+* excluding the numbers 2 and 4,
  * followed by a new line.
  *
  * Return: This function does not return a value (void).
