@@ -4,7 +4,7 @@
  *
  * @c: This is a digit
  *
- * Description: function that checks for a digit (0 through 9).
+ * Description: This function _isdigit checks for a digit (0 through 9)
  * Returns 1 if c is a digit 0 otherwise
  *
  * R: This return 1 and 0
